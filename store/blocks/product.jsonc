@@ -34,6 +34,11 @@
       "buy-button"
     ]
   },
+  "product-name": {
+    "props": {
+      "showSku": true
+    }
+  },
   "product-price": {
     "props": {
       "showSavings": true,
@@ -59,9 +64,9 @@
   },
   "sku-selector": {
     "props": {
-      "initialSelection": "true",
-      "showValueNameForImageVariation": "true",
-      "showVariationsErrorMessage": "true"
+      "initialSelection": true,
+      "showValueNameForImageVariation": true,
+      "showVariationsErrorMessage": true
     }
   }
   
