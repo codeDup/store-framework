@@ -7,11 +7,13 @@
     },
     "header-layout.desktop": {
         "children": [
+            "header-row#notification",
             "header-row#main"
         ]
     },
     "header-layout.mobile": {
         "children": [
+            "header-row#notification",
             "header-row#main-mobile"
         ]
     },
@@ -22,7 +24,6 @@
             "fullWidth": false
         },
         "children": [
-            "header-row#notification",
             "logo",
             "header-spacer",
             "search-bar",
@@ -32,7 +33,6 @@
     },
     "header-row#main-mobile": {
         "children": [
-            "header-row#notification",
             "logo",
             "header-spacer",
             "minicart",
