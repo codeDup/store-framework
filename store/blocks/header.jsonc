@@ -22,6 +22,7 @@
             "fullWidth": false
         },
         "children": [
+            "header-row#notification",
             "logo",
             "header-spacer",
             "search-bar",
@@ -31,6 +32,7 @@
     },
     "header-row#main-mobile": {
         "children": [
+            "header-row#notification",
             "logo",
             "header-spacer",
             "minicart",
