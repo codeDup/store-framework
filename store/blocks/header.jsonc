@@ -1,4 +1,20 @@
 {
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#main"
+        ]
+    },
+    "header-layout.mobile": {
+        "children": [
+            "header-row#main-mobile"
+        ]
+    },
     "header-row#main": {
         "props": {
             "inverted": true,
