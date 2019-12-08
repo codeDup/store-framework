@@ -9,6 +9,7 @@
             "orientation": "horizontal"
         }
     },
+    
     "menu-item#major-appliances": {
         "blocks": [
             "vtex.menu@2.x:submenu#major"
