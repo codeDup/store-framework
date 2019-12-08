@@ -90,9 +90,7 @@
     },
     "header-row#menu-mobile": {
         "children": [
-            "header-spacer",
-            "drawer",
-            "header-spacer"
+            "drawer"
         ]
     }
 }
