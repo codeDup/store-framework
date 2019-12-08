@@ -1,9 +1,4 @@
 {
-    "drawer": {
-        "children": [
-            "vtex.menu@2.x:menu#categories"
-        ]
-    },
     "vtex.menu@2.x:menu#categories": {
         "children": [
             "menu-item#major-appliances",
@@ -16,7 +11,9 @@
         }
     },
     "menu-item#major-appliances": {
-        "blocks": ["vtex.menu@2.x:submenu#major"],
+        "blocks": [
+            "vtex.menu@2.x:submenu#major"
+        ],
         "props": {
             "itemProps": {
                 "type": "internal",
@@ -26,7 +23,9 @@
         }
     },
     "menu-item#small-appliances": {
-        "blocks": ["vtex.menu@2.x:submenu#small"],
+        "blocks": [
+            "vtex.menu@2.x:submenu#small"
+        ],
         "props": {
             "itemProps": {
                 "type": "internal",
@@ -36,7 +35,9 @@
         }
     },
     "menu-item#electronics": {
-        "blocks": ["vtex.menu@2.x:submenu#electronics"],
+        "blocks": [
+            "vtex.menu@2.x:submenu#electronics"
+        ],
         "props": {
             "itemProps": {
                 "type": "internal",

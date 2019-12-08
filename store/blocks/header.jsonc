@@ -16,8 +16,7 @@
         "children": [
             "header-row#notification",
             "header-row#main-mobile",
-            "header-row#search",
-            "header-row#menu-mobile"
+            "header-row#search"
         ]
     },
     "header-row#main": {
@@ -36,6 +35,7 @@
     },
     "header-row#main-mobile": {
         "children": [
+            "drawer",
             "logo",
             "header-spacer",
             "minicart",
@@ -86,11 +86,6 @@
             "header-spacer",
             "vtex.menu@2.x:menu#categories",
             "header-spacer"
-        ]
-    },
-    "header-row#menu-mobile": {
-        "children": [
-            "drawer"
         ]
     }
 }
