@@ -9,7 +9,7 @@
             "orientation": "horizontal"
         }
     },
-    
+
     "menu-item#major-appliances": {
         "blocks": [
             "vtex.menu@2.x:submenu#major"
@@ -71,6 +71,7 @@
         "props":{
             "orientation": "vertical"
         }
+        
     },
     "vtex.menu@2.x:menu#small":{
         "children":[
