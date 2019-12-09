@@ -26,19 +26,6 @@
             "vtex.menu@2.x:menu#major"
         ]
     },
-    "menu-item#major-appliances": {
-        "blocks": [
-            "vtex.menu@2.x:submenu#major"
-        ],
-        "props": {
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "text": "Major Appliances"
-            }
-        }
-    },
-
     "vtex.menu@2.x:menu#small":{
         "children":[
             "menu-item#mixers",
@@ -54,31 +41,7 @@
             "vtex.menu@2.x:menu#small"
         ]
     },
-    "menu-item#small-appliances": {
-        "blocks": [
-            "vtex.menu@2.x:submenu#small"
-        ],
-        "props": {
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "text": "Small Appliances"
-            }
-        }
-    },
-    
-    "menu-item#electronics": {
-        "blocks": [
-            "vtex.menu@2.x:submenu#electronics"
-        ],
-        "props": {
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "text": "Electronics"
-            }
-        }
-    },
+   
     "vtex.menu@2.x:menu#electronics":{
         "children":[
             "menu-item#cameras",
